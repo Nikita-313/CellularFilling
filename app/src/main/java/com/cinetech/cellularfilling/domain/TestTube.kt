@@ -9,7 +9,6 @@ class TestTube {
     private var createLifeCounter = 0
     private var killLifeCounter = 0
     private val tube = mutableListOf<Entity>()
-
     private var tubeListener: (List<Entity>) -> Unit = {}
 
     fun addRandomEntityToTube() {
@@ -65,3 +64,4 @@ class TestTube {
             killLifeCounter = 0
         }
     }
+}

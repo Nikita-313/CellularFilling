@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        setLightStatusBarIcons()
+        setStatusBarIconsAndNavigationBarsLight()
         turnOffNightMode()
 
         val recyclerAdapter = MainRecyclerAdapter()
@@ -66,9 +66,10 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun setLightStatusBarIcons() {
+    private fun setStatusBarIconsAndNavigationBarsLight() {
         WindowCompat.getInsetsController(this.window, this.window.decorView).apply {
             isAppearanceLightStatusBars = false
+            isAppearanceLightNavigationBars = false
         }
     }
 
