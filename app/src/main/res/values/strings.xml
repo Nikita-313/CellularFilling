@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Клеточное наполнение</string>
+    <string name="main_activity_title">Клеточное наполнение</string>
+    <string name="main_activity_create_cellular_button">Сотворить</string>
+    <string name="main_activity_dead_cellular">Мёртвая</string>
+    <string name="main_activity_dead_cellular_note">или прикидывается</string>
+    <string name="main_activity_dead_life">"Жизнь (погибла)</string>
+    <string name="main_activity_dead_life_note">пока...</string>
+    <string name="main_activity_life">Жизнь</string>
+    <string name="main_activity_life_note">Ку-ку!</string>
+    <string name="main_activity_live_cellular">Живая</string>
+    <string name="main_activity_live_cellular_note">и шевелится!</string>
+</resources>
